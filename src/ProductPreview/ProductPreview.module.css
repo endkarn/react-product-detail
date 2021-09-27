@@ -1,0 +1,52 @@
+.ProductPreview { 
+    width: 100%;
+    position: relative
+  }
+  
+  .ProductPreview > img {
+    width: 100%;
+  }
+  
+  .TimeSection {
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .HearthBeatSection {
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .HearthBeatSection > p {
+    margin-top: 16px;
+  }
+  
+  .HearthBeatSection > i {
+    color: red;
+    animation: heartbeat 2s infinite;
+  }
+  
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1, 1);
+    }
+  
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+  
+    100% {
+      transform: scale(1, 1);
+    }
+    
+  }
